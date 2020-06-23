@@ -1,5 +1,5 @@
-for (let i = 0; i<10;i++_ { //let foi declarado no escopo de bloco
+for (let i = 0; i<10;i++) { //let foi declarado no escopo de bloco
     console.log(i)
 }
 
-console.log('i=',i) //ERRO
+//console.log('i=',i) //ERRO

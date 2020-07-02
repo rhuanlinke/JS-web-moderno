@@ -8,11 +8,11 @@ const prod2 = {
 }*/
 
 //Factory simples: "Função Factory" é uma função que retorna um objeto
-function criarPessoa(x, y) {
+function criarPessoa(nome, sobrenome) {
 
     return {
-        nome: x,
-        sobrenome: y
+        nome,
+        sobrenome
     }
 }
 

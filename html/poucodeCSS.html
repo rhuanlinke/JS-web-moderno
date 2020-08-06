@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Um Popuco de CSS</title>
+        <style>
+            h1 {
+                position: absolute;
+                top: 400px;
+                left: 200px;
+                background-color: red;
+                font-size: 70px;
+            }
+            .fundoVermelho {
+                
+                background-color: #f00;
+            }
+            .negrito {
+                color: white
+            }
+            #textoPrincipal {
+                font-size: 40px;
+                font-weight: bold;
+                background-color: brown;
+                padding: 10px;
+                margin-bottom: 50px;
+            }
+            .imagemTeste {
+                position: absolute;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 5px;
+                right: 600px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>
+        <span id="textoPrincipal">Texto 1</span>
+        <span class="fundoVermelho negrito">Texto 2</span><br><br>
+        <span class="fundoVermelho" wm-atrib>Texto 2</span>
+        <span class="imagemTeste" img-atrib><img src="https://wow.zamimg.com/uploads/screenshots/normal/662605-arquimago-hadggar.jpg" alt=""></span> <!--O atributo serve para buscar mais facilmente no JS, sem ter que utilizar a classe para isto. Comando abaixo:-->
+        <!--document.querySelector('[img-atrib]')-->
+    </body>
+</html>

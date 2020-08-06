@@ -1,6 +1,6 @@
 # Curso de JavaScript
 
-Repositório criado com o intuito de armazenar e versionar mais avanços dentro do curso disponibilizado pelo:
+Repositório criado com o intuito de armazenar e versionar meus avanços dentro do curso disponibilizado pelo:
 https://www.cod3r.com.br/courses/web-moderno
 
 # Conceitos e tópicos abordados no curso:
